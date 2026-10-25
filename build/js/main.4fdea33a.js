@@ -1,0 +1,1 @@
+(()=>{"use strict";const t=document.querySelector("#counter-button"),e=document.querySelector("#counter-value");let n=0;t?.addEventListener("click",()=>{n+=1,e&&(e.textContent=String(n))})})();

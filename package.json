@@ -1,0 +1,27 @@
+{
+  "name": "webpack-typescript-scss-starter",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A simple Webpack, TypeScript, and SCSS starter for students.",
+  "scripts": {
+    "start": "webpack serve --mode development",
+    "build": "webpack --mode production",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "css-loader": "^7.0.0",
+    "html-webpack-plugin": "^5.0.0",
+    "mini-css-extract-plugin": "^2.0.0",
+    "sass": "^1.0.0",
+    "sass-loader": "^16.0.0",
+    "style-loader": "^4.0.0",
+    "ts-loader": "^9.0.0",
+    "typescript": "^5.0.0",
+    "webpack": "^5.0.0",
+    "webpack-cli": "^6.0.0",
+    "webpack-dev-server": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
